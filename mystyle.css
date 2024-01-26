@@ -12,12 +12,25 @@
 }
 .cl3
 {
-    background-color: blue;
+    background-color: rgb(26, 29, 8);
     text-align: center;
-    color: brown;
+    color: rgb(235, 225, 225);
 }
 #ii
 {
-    background-color:rgb(10, 91, 51);
+    background-color:rgb(69, 171, 120);
     color:black;
+}
+.imgcls
+{
+
+}
+.btn
+{
+    background-color: blue;
+    color: chocolate;
+}
+#audio
+{
+    
 }

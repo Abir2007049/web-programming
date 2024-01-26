@@ -4,14 +4,20 @@
         <title class="cl1">My first website</title>
         <link rel="stylesheet" href="mystyle.css">
     </head>
-    <body>
-        <h2 class="cl2">Welcome Everyone</h2>
-        <p class="cl3">This is modification</p></br>
-        <p class="cl2">Trying to make my first academic website ready.I should try every items I've learnt so far.</br>
-            Let's make a table and introduce myself.</p>
-        </br>
-        img<src="300.jpg">
-            <p>This is me</br></p>
+    <body >
+        <div style="background-color: rgb(174, 168, 194);">
+        <div class="cl2">
+        <h2 >Welcome</h2>
+        <p>This is my Portfolio</p>
+        
+        </div>
+       <button onclick="prev()">Previous</button>
+       <img class="imgcls" src="./img1.jpg" alt="" height="400" width="350">
+       <button onclick="next()">Next</button>
+
+            <p>This is me</p>
+            <p><strong>Trying to make my first academic website ready.I should try every items I've learnt so far.</br>
+                Let's make a table and introduce myself.</strong></p>
             <h3>Table</h3>
             <table border="2">
                 <tr>
@@ -30,8 +36,14 @@
                     <td style="color:red">RESTRICTED!</td>
                 </tr>
             </table>
+            </div>
+            <p>Here is an audio file about me</p>
+            <button class="btn">Audio_file</button>
+            
+            <audio id="audio" src="./audio.mp3"> </audio>
         
-    </br> </br> </br> </br>
+    
+    <div style="background-color:rgb(24, 145, 210) ;">
         <p id="ii">Now I am presenting the list of some of my works.</p>
         <h3>List</h3>
         <ul>
@@ -47,33 +59,40 @@
             <li>Android Studio and Java project</li>
             
         </ul>
-        </br> </br> </br>
-        <p>I am willing to make a team for competetive programming.So,I need qualified members.</br>
-            Fill up the form and create an ID to join my team.</p>
-        </br>
+
+        </div>
+        <p style="background-color: rgb(209, 68, 68);"><strong>I am willing to make a team for competetive programming.So,I need qualified members.</br>
+            Fill up the form and create an ID to join my team.</strong></p>
+        
+        <div style="background-color:rgb(156, 169, 136);">
         <p class="cl1">Here are the links of projects stored in github</p>
+        
         <ol>
             <li>OOP project - <a href="https://github.com/Abir2007049/oop_project">https://github.com/Abir2007049/oop_project</a></li>
+            <li>Portfolio project -<a href="https://github.com/Abir2007049/web-programming.git">https://github.com/Abir2007049/web-programming.git</a> </li>
             <li>Not added yet</li>
             <li>Not added yet</li>
         </ol>
+        </div>
         
 
 
-        <form>
+        <form style="background-color: silver;">
             <label for="name">Full Name:</label>
             <input type="text" id="name" name="name"></br>
             <label for="uname">University Name:</label></br>
             <input type="text" id="uname" name="uname"></br>
             <label for="ps">Password:</label></br>
-            <input type="password" id="ps" name="ps"></br>
-            <input type="submit" value="Submit">
+            <input type="password" id="ps" name="ps">
+            </br>
+            </br>
+            <button onclick="submitMsg()">Submit</button>
 
 
         </form>
         </br>  
 
 
-        
+     <script src="test.js"></script>   
     </body>
 </html>
