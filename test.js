@@ -1,5 +1,6 @@
-var ph=["./img1.jpg","./img2.jpg","./img3.jpg","./img4.jpg"];
+
 var imgtag=document.querySelector(".imgcls");
+let ph=["./img1.jpg","./img2.jpg","./img3.jpg"];
 var cnt=0;
  
 function next()
@@ -21,6 +22,7 @@ function prev()
     {
         cnt=ph.length - 1;
         imgtag.src=ph[cnt];
+    
     }
     else{
     imgtag.src=ph[cnt];
@@ -30,12 +32,4 @@ function prev()
 function submitMsg()
 {
     alert("Informations are submitted");
-}
-var press=document.querySelector(".btn");
-press[0].addEventListener("click",funution PLAY); 
-
-functoin PLAY()
-{
-    var aud=document.querySelector("#audio");
-    aud.play();
 }

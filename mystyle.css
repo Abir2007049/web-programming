@@ -23,14 +23,15 @@
 }
 .imgcls
 {
+    margin:auto;
+    
 
 }
 .btn
 {
-    background-color: blue;
-    color: chocolate;
+    border: 0cqmin;
+    color: rgb(239, 241, 229);
+    background-color: black;
+
 }
-#audio
-{
-    
-}
+
